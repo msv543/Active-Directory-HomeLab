@@ -29,7 +29,7 @@ Configure Folder Redirection using Group Policy to automatically redirect users'
   - Logged in as the Sales1 domain user
   - Verified that document and desktop properties use the file server location path
 7. Verified Folder creation on the File Server
-  -The FILESERVER C drive showed the creation of Sales1 Folder for Desktop and Documents
+  - The FILESERVER C drive showed the creation of Sales1 Folder for Desktop and Documents
 
 ## Result
 
