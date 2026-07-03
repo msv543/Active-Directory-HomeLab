@@ -4,7 +4,7 @@
 
 Configure and deploy an AppLocker policy using Group Policy to restrict users from executing unauthorized applications from common user-writable locations, such as Downloads, and Desktop folders, while allowing trusted Windows applications to continue running.
 
-## Steps Performed\
+## Steps Performed
 
 1. Created the AppLocker Group Policy
   - Created a new Group Policy named: COMPUTER: AppLocker Policy
