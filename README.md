@@ -4,8 +4,9 @@ A hands-on Active Directory home lab built with Windows Server 2025 and Windows 
 
 ## Lab Environment
 ### Virtual Machines
-
+```
 DC1    Windows Server 2025   Domain Controller, DNS, DHCP, Group Policy
 FileServer   Windows Server 2025, File Shares, NTFS Permissions, Folder Redirection
 PC1   Windows 11   Domain-Joined Client
 PC2   Windows 11   Domain-Joined Client
+```
