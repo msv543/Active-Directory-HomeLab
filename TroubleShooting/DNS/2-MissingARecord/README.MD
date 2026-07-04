@@ -34,7 +34,7 @@ ping 192.168.100.20 succeeded with 0% packet loss, confirming network connectivi
 4. Verified there was a missing Host (A) record for fileserver
 5. Created a new Host (A) record for fileserver with the IP of 192.168.100.20
 6. Ran the following two commands on CMD: ping fileserver.martinlab.local, nslookup fileserver
-7. Verified ping returned packets at 0% loss. Verified that nslookup returned with the correct hostname and IP address.
+7. Verified ping returned packets at 0% loss. Verified that nslookup returned with the correct hostname and IP address
 
 ## Resolution
 
