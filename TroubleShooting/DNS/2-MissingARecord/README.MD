@@ -2,20 +2,27 @@
 
 ## Objective
 
-Diagnose and resolve an issue where a domain-joined client could not resolve a domain name
+Diagnose and resolve an issue where a domain-joined client could not resolve a host name due to a missing DNS Host (A) record.
 
 ## Symptoms
 
 - Unable to ping fileserver.martinlab.local
-- nslookup fileserver returns no record found
+- nslookup fileserver returned non-existent domain
+- The server was reachable by IP address and not by hostname
 
 ## Root Cause
 
-The DNS manager had a missing Host (A) name record for fileserver. The workstations could not resolve that specific domain name but they could ping the actual IP in an reverse lookup.
+The DNS Forward Lookup Zone was missing the Host (A) record for fileserver because no A record existed, clients could not resolve the hostname to its IP address. Network connectivity remaind functional, allowing the server to be reached directly by its IP address.
 
 ## Troubleshooting Steps
 
-1. Ran the four following commands on CMD: ping fileserver.martinlab.local, nslookup fileserver, ipconfig /all, ping 192.168.100.20
+1. Ran the four following commands on CMD
+```
+ping fileserver.martinlab.local
+nslookup fileserver
+ipconfig /all
+ping 192.168.100.20
+```
 2. Verified ping fileserver returned with 'non-existent domain.' Verified nslookup fileserver returned 'non-existent domain.' Verified ipconfig /all returned with the correct DNS server. Verified ping server IP worked with 0% packet loss.
 3. Opened Server Manager and went through Tools -> DNS -> Forward Lookup Zones -> martinlab.local
 4. Verified there was a missing Host (A) record for fileserver
