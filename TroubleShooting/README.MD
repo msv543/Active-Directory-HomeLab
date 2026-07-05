@@ -16,7 +16,7 @@ This section contains troubleshooting scenarios based on real-world issues encou
 
 DNS Troubleshooting
 1. Server Unkown (nslookup)
-2. Client Cannot Resolve Hostnames
-3. Missing Host (A) record
-4. Missing PTR Record
-5. Broken Forward Lookup Zone
+2. Missing Host (A) record
+3. Missing PTR Record
+4. Missing Forward Lookup Zone
+5. Missing Reverse Lookup Zone
