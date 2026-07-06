@@ -37,3 +37,20 @@ PC2          Windows 11            Domain-Joined Client
 
 This repository also includes a growing collection of troubleshooting scenarios based on real issues encountered while building the lab. Each scenario documents the problem, symptoms, diagnosis, and resolution.
 
+## Future Improvements
+- Microsoft Entra ID (Azure AD) synchronization using Azure AD Connect
+- Windows Server Update Services (WSUS) deployment
+- Print Server deployment and Group Policy printer deployment
+- File Server quotas using File Server Resource Manager (FSRM)
+- DFS Namespace and DFS Replication
+- Active Directory Certificate Services (AD CS)
+- RADIUS authentication using Network Policy Server (NPS)
+- VPN server deployment with RRAS
+- Windows Deployment Services (WDS) for automated operating system deployment
+- Microsoft Deployment Toolkit (MDT) for Windows imaging
+- Roaming Profiles and Folder Redirection
+- Group Policy software deployment
+- PowerShell automation for user and group management
+- Active Directory backup and disaster recovery
+- Additional troubleshooting scenarios for DNS, DHCP, Group Policy, and Active Directory replication
+
