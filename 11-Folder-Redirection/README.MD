@@ -29,14 +29,14 @@ Configure Folder Redirection using Group Policy to automatically redirect users'
     - Entered the shared UserData root path
     - Enabled Grant the user exclusive rights to Documents
     - Enabled redirect the folder back to the local user profile location when policy is removed
-![11-Folder-Redirection](screenshots/6-GPOEdit.png)
+![11-Folder-Redirection](screenshots/5-GPOEdit.png)
 6. Verified Folder Redirection
   - Logged in as the Sales1 domain user
   - Verified that document and desktop properties use the file server location path
-![11-Folder-Redirection](screenshots/7-VerifyUser.png)
+![11-Folder-Redirection](screenshots/6-VerifyUser.png)
 7. Verified Folder creation on the File Server
   - The FILESERVER C drive showed the creation of Sales1 Folder for Desktop and Documents
-![11-Folder-Redirection](screenshots/8-VerifyFILESERVER.png)
+![11-Folder-Redirection](screenshots/7-VerifyFILESERVER.png)
 
 ## Result
 
