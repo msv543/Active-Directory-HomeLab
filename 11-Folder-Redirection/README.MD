@@ -33,10 +33,10 @@ Configure Folder Redirection using Group Policy to automatically redirect users'
 6. Verified Folder Redirection
   - Logged in as the Sales1 domain user
   - Verified that document and desktop properties use the file server location path
-
+![11-Folder-Redirection](screenshots/6-VerifyUser.png)
 7. Verified Folder creation on the File Server
   - The FILESERVER C drive showed the creation of Sales1 Folder for Desktop and Documents
-
+![11-Folder-Redirection](screenshots/VerifyFILESERVER.png)
 
 ## Result
 
