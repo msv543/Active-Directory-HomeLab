@@ -6,16 +6,20 @@ Deploy and configure Microsoft LAPS (Local Adminstrator Password Solution) to au
 
 ## Steps Performed
 1. Extended the Active Directory schema to support Microsoft LAPS attributes.
+![09-LAPS-Deployment](screenshots/1-AddingLAPS-WorkstationsOU.png)
 2. Created a dedicated Workstations OU and moved domain-joined client computers into the OU.
 3. Granted computer accounts permission to update their own LAPS password information in Active Directory.
-4. Cerated a security group named LAPS-Admins for delegated password management.
+4. Created a security group named LAPS-Admins for delegated password management.
+![09-LAPS-Deployment](screenshots/2-GroupPermissions.png)
 5. Created and linked a Group Policy Object (GPO) to the workstations OU.
 6. Configured Microsoft LAPS settings to back up local adminstrator passwords to Active Directory.
 7. Configured password complexity, password length, and password expiration policies.
+![09-LAPS-Deployment](screenshots/3-GPOCreation.png)
 8. Applied Group Policy updates to the client workstation.
-9. Verified that password informatino was successfully stored within Active Directory.
+9. Verified that password information was successfully stored within Active Directory.
 10. Tested password retrieval using an authorized administrative account.
 11. Verified that unauthorized users could not access managed passwords.
+![09-LAPS-Deployment](screenshots/4-LAPSVerify.png)
 
 ## Results
 
