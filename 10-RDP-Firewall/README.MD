@@ -31,7 +31,7 @@ Configure and deploy a Group Policy Object (GPO) to establish a secure Windows D
 6. Verified successful Group Policy deployment by running:
   - gpupdate /force
   - gpresult /r
-![10-RDP-Firewall](screenshots/5-GPOConfirm.png)
+![10-RDP-Firewall](screenshots/5-GPOconfirm.png)
 7. Tested Remote Desktop connectivity:
   - Attempted an RDP connection from PC1 (HR/Sales workstation) to PC2 (IT workstation) and confirmed the connection was blocked.
   - Successfully established an RDP connection from PC2 (IT workstation) to PC1, verifying that only authorized IT administrators could remotely access managed workstations.
