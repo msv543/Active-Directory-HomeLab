@@ -8,6 +8,7 @@ Configure Folder Redirection using Group Policy to automatically redirect users'
 
 1. Created the User Data Folder
   - Created a folder named UserData on the file server at: C:\UserData
+![11-Folder-Redirection](screenshots/1-UserDataCreation.png)
 2. Configured the SMB share
   -File and Storage Services -> Shares -> New Share -> SMB Share - Quick ->
   - Selected the C:\UserData folder - > Enabled Access-Based Enumeration
