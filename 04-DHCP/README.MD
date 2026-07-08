@@ -15,7 +15,7 @@ Deploy and configure Dynamic Host Configuration Protocol (DHCP) services to auto
 ![04-DHCP](screenshots/2-DHCPConfigured.png)
 6. Verified that client workstation can successfully obtain IP configuration information from the DHCP server.
 7. Confirmed network connectivity and proper lease assignment on the client workstation (PC1).
-![04-DHCP/screenshots/3-DHCPVerifying.png]
+![04-DHCP](screenshots/3-DHCPVerifying.png)
 
 ## Results
 
