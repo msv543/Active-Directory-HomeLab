@@ -21,7 +21,7 @@ Configure and deploy an AppLocker policy using Group Policy to restrict users fr
   - Logged into PC1 using teh Sales1 domain user
     - Downloaded an .exe file to the Downloads folder and got denied when launching the application
     - Moved the .exe file to Desktop and got denied when launching the application
-![08-AppLocker](screenshots/AppLockerVerify.png)
+![08-AppLocker](screenshots/3-AppLockerVerify.png)
 
 ## Result
 
