@@ -17,7 +17,7 @@ Configure and manage DNS services in an Active Directory environment to support 
 8. Test internet hostname resolution through the DNS server.
 9. Verified successful Dynamic DNS registration within the DNS zone.
 10. Created a CNAME (Alias) record to provide an alternate hostname for a network resource.
-[05-DNS](screenshots/2-DNSVerify.png)
+![05-DNS](screenshots/2-DNSVerify.png)
 
 ## Results
 
