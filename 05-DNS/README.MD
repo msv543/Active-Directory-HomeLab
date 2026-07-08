@@ -11,11 +11,13 @@ Configure and manage DNS services in an Active Directory environment to support 
 3. Created DNS Host (A) records for FILESERVER, PRINTSERVER, and APPSERVER.
 4. Verified hostname resolution from Windows 11 client using nslookup.
 5. Created a Reverse Lookup Zone for the lab network.
+![05-DNS](screenshots/1-DNSCreation.png)
 6. Verified reverse DNS resolution by testing IP-to-hostname lookups using nslookup.
 7. Configured DNS Forwarders to allow external name resolution.
 8. Test internet hostname resolution through the DNS server.
 9. Verified successful Dynamic DNS registration within the DNS zone.
 10. Created a CNAME (Alias) record to provide an alternate hostname for a network resource.
+[05-DNS](screenshots/2-DNSVerify.png)
 
 ## Results
 
