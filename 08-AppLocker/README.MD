@@ -13,12 +13,15 @@ Configure and deploy an AppLocker policy using Group Policy to restrict users fr
     - Deny executable files from running within the user's Downloads Folder
     - Deny executable files from runnning from the user's Desktop 
   - Created the default AppLocker rules for all rule collections
+![08-AppLocker](screenshots/1-AppLockerGPO.png)
 2. Enabled the AppLocker Identity Service
   - Configured the Application Identity service to start automatically.
+![08-AppLocker](screenshots/2-AppLockerAllow.png)
 3. Verified the AppLocker Policy
   - Logged into PC1 using teh Sales1 domain user
     - Downloaded an .exe file to the Downloads folder and got denied when launching the application
     - Moved the .exe file to Desktop and got denied when launching the application
+![08-AppLocker](screenshots/AppLockerVerify.png)
 
 ## Result
 
