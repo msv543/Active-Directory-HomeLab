@@ -18,7 +18,10 @@ Create and organize Active Directory users, security groups, and Organizational 
 4. Created two user accounts within each OU.
 5. Added users to their corresponding security groups.
 6. Verified group membership and OU placement in Active Directory Users and Computers.
-
+![02-User-Groups-OUs](screenshots/SalesOU.png)
+![02-User-Groups-OUs](screenshots/HROU.png)
+![02-User-Groups-OUs](screenshots/ITOU.png)
+![02-User-Groups-OUs](screenshots/AdminsOU.png)
 
 ## Results
 
