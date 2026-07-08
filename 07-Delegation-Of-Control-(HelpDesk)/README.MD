@@ -12,9 +12,9 @@ Configured delegated permissions in Active Directory to allow helpdesk personnel
 3. Delegated password reset permissions and account unlock permissions to the Helpdesk group.
 ![07-Delegation-Of-Control-(HelpDesk)](screenshots/2-DelegatePermissions.png)
 4. Tested delegated access using a non-administrative Helpdesk account.
-![07-Delegation-Of-Control-(HelpDesk)](3-UsingPermissions.png)
+![07-Delegation-Of-Control-(HelpDesk)](screenshots/3-UsingPermissions.png)
 5. Verified least-privelege access by confimring administrastive functions remained restricted.
-![07-Delegation-Of-Control-(HelpDesk)](4-VerifyingLeastPrivilege.png)
+![07-Delegation-Of-Control-(HelpDesk)](screenshots/4-VerifyingLeastPrivilege.png)
 
 ## Results
 
