@@ -7,9 +7,12 @@ Deploy a Windows Server Domain Controller and establish a new Active Directory d
 
 1. Installed Windows Server 2025.
 2. Configured a static IPv4 address to ensure consistent network connectivity.
+[01-Domain-Setup](screenshots/2-SettingStaticIP-DNS.png)
 3. Installed the Active Directory Domain Services (AD DS) role.
 4. Promoted the server to a Domain Controller.
 5. Created a new Active Directory domain: martinlab.local.
+[01-Domain-Setup](screenshots/2-ServerSelection.png)
+[01-Domain-Setup](screenshots/3+4-InstalledADDS+ServerPromote.png)
 6. Installed and configured DNS as part of the domain deployment process.
 7. Verified Active Directory functionality thorugh administrative tools and PowerShell commands.
 ![01-Domain-Setup](screenshots/6-VerifyingServer.png)
