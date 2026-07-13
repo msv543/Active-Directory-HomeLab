@@ -12,7 +12,7 @@ Deploy a Windows Server Domain Controller and establish a new Active Directory d
 4. Promoted the server to a Domain Controller.
 5. Created a new Active Directory domain: martinlab.local.
 ![01-Domain-Setup](screenshots/2-ServerSelection.png)
-![01-Domain-Setup](screenshots/3+4-Installed ADDS+ServerPromote.png)
+![01-Domain-Setup](screenshots/3+4-Installed_ADDS+ServerPromote.png)
 6. Installed and configured DNS as part of the domain deployment process.
 7. Verified Active Directory functionality thorugh administrative tools and PowerShell commands.
 ![01-Domain-Setup](screenshots/6-VerifyingServer.png)
